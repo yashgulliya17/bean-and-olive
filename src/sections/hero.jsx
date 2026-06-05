@@ -677,7 +677,7 @@ export default function BeanAndOlive() {
               <div style={styles.aboutCardInner}>
                 <OliveBranchIcon size={48} />
                 <p style={styles.aboutCardQuote}>"Coffee is a hug in a mug."</p>
-                <p style={styles.aboutCardAuthor}>— Mark McLoed</p>
+                <p style={styles.aboutCardAuthor}>— Mark McLeod</p>
               </div>
             </div>
             <div style={styles.aboutAccent} />
