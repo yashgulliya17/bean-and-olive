@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet-async";
 
+import logo from "../assets/logo-bean.png";
+
 const NAV_LINKS = [
   { name: "HOME", path: "/" },
   { name: "MENU", path: "/menu" },
@@ -515,6 +517,7 @@ export default function MenuPage() {
         }}
       >
         <div style={s.navLogo}>
+          <img src={logo} alt="Bean & Olive Logo" style={s.navLogoImage} />
           <span
             style={{
               ...s.navLogoText,
@@ -1003,6 +1006,12 @@ const s = {
     boxShadow: "0 10px 35px rgba(0,0,0,0.08)",
   },
   navLogo: { display: "flex", alignItems: "center", gap: "0.6rem" },
+  navLogoImage: {
+    height: "34px",
+    width: "auto",
+    objectFit: "contain",
+    display: "block",
+  },
   navLogoText: {
     fontFamily: "'Cormorant Garamond', serif",
     fontWeight: 600,
