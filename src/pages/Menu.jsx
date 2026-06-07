@@ -944,6 +944,17 @@ export default function MenuPage() {
             </p>
             <p style={s.footerInfo}>+1 807-577-2326</p>
             <p style={s.footerInfo}>beanandolive@hotmail.com</p>
+
+            <p style={{ ...s.footerHeading, marginTop: "1rem" }}>
+              Opening Hours
+            </p>
+            <p style={s.footerInfo}>Monday: 8 AM – 2 PM</p>
+            <p style={s.footerInfo}>Tuesday: 8 AM – 7 PM</p>
+            <p style={s.footerInfo}>Wednesday: 8 AM – 10 PM</p>
+            <p style={s.footerInfo}>Thursday: 8 AM – 10 PM</p>
+            <p style={s.footerInfo}>Friday: 8 AM – 11 PM</p>
+            <p style={s.footerInfo}>Saturday: 9 AM – 11 PM</p>
+            <p style={s.footerInfo}>Sunday: 9 AM – 2 PM</p>
           </div>
         </div>
         <div style={s.footerBottom}>

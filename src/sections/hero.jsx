@@ -1000,6 +1000,16 @@ export default function BeanAndOlive() {
             </p>
             <p style={styles.footerInfo}>+1 807-577-2326</p>
             <p style={styles.footerInfo}>beanandolive@hotmail.com</p>
+            <h4 style={{ ...styles.footerHeading, marginTop: "1rem" }}>
+              Opening Hours
+            </h4>
+            <p style={styles.footerInfo}>Monday: 8 AM – 2 PM</p>
+            <p style={styles.footerInfo}>Tuesday: 8 AM – 7 PM</p>
+            <p style={styles.footerInfo}>Wednesday: 8 AM – 10 PM</p>
+            <p style={styles.footerInfo}>Thursday: 8 AM – 10 PM</p>
+            <p style={styles.footerInfo}>Friday: 8 AM – 11 PM</p>
+            <p style={styles.footerInfo}>Saturday: 9 AM – 11 PM</p>
+            <p style={styles.footerInfo}>Sunday: 9 AM – 2 PM</p>
           </div>
         </div>
         <div style={styles.footerBottom}>

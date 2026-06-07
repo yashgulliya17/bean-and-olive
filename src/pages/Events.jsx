@@ -130,6 +130,7 @@ const TAG_COLORS = {
   "HAPPY HOUR": "#a47551",
   "SPECIAL EVENT": "#6f4e37",
   TASTING: "#9e8b6e",
+  "PRIVATE EVENT": "#7b6fae",
   WEEKLY: "#6e8b9e",
 };
 
@@ -714,9 +715,34 @@ export default function EventsPage() {
                 beanandolive@hotmail.com
                 <br />
                 +1 807-577-2326
+                <br />
+                <br />
+                Opening Hours
+                <br />
+                Monday: 8 AM – 2 PM
+                <br />
+                Tuesday: 8 AM – 7 PM
+                <br />
+                Wednesday: 8 AM – 10 PM
+                <br />
+                Thursday: 8 AM – 10 PM
+                <br />
+                Friday: 8 AM – 11 PM
+                <br />
+                Saturday: 9 AM – 11 PM
+                <br />
+                Sunday: 9 AM – 2 PM
               </>
             ) : (
-              "1725 Hwy 61, Thunder Bay, ON · beanandolive@hotmail.com · +1 807-577-2326"
+              <>
+                1725 Hwy 61, Thunder Bay, ON · beanandolive@hotmail.com · +1
+                807-577-2326
+                <br />
+                <br />
+                Opening Hours: Monday 8 AM–2 PM · Tuesday 8 AM–7 PM · Wednesday
+                8 AM–10 PM · Thursday 8 AM–10 PM · Friday 8 AM–11 PM · Saturday
+                9 AM–11 PM · Sunday 9 AM–2 PM
+              </>
             )}
           </p>
           <p style={styles.footerCopy}>© 2026 Bean &amp; Olive.</p>
@@ -1183,7 +1209,7 @@ COLUMN GUIDE:
   time        → e.g. 7:00 PM
   category    → Must be exactly one of: Weekly | This Month | Upcoming
   description → One or two sentences about the event
-  tag         → e.g. LIVE MUSIC, WORKSHOP, HAPPY HOUR, SPECIAL EVENT, TASTING
+  tag         → e.g. LIVE MUSIC, WORKSHOP, HAPPY HOUR, SPECIAL EVENT, TASTING, PRIVATE EVENT
   spots       → e.g. "8 spots left", "Walk-ins welcome", "Free entry"
   link        → Optional booking URL (leave blank if none)
 

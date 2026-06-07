@@ -5,7 +5,7 @@ import logo from "../assets/logo-bean.png";
 import { Helmet } from "react-helmet-async";
 
 const SHEET_CSV_URL =
-  "https://dcs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE/export?format=csv&gid=0";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vRbYniwuLxIhcpOQoSIDT5X4DFTLvl1KUQp9qTCdelLyngiaiRTAjfBnxYwOrco7_9v-DWVuYrIJ393/pub?gid=0&single=true&output=csv";
 
 const CATEGORIES = [
   "All",
@@ -659,9 +659,34 @@ export default function GalleryPage() {
                   beanandolive@hotmail.com
                   <br />
                   +1 807-577-2326
+                  <br />
+                  <br />
+                  Opening Hours
+                  <br />
+                  Monday: 8 AM – 2 PM
+                  <br />
+                  Tuesday: 8 AM – 7 PM
+                  <br />
+                  Wednesday: 8 AM – 10 PM
+                  <br />
+                  Thursday: 8 AM – 10 PM
+                  <br />
+                  Friday: 8 AM – 11 PM
+                  <br />
+                  Saturday: 9 AM – 11 PM
+                  <br />
+                  Sunday: 9 AM – 2 PM
                 </>
               ) : (
-                "1725 Hwy 61, Thunder Bay, ON · beanandolive@hotmail.com · +1 807-577-2326"
+                <>
+                  1725 Hwy 61, Thunder Bay, ON · beanandolive@hotmail.com · +1
+                  807-577-2326
+                  <br />
+                  <br />
+                  Opening Hours: Monday 8 AM–2 PM · Tuesday 8 AM–7 PM ·
+                  Wednesday 8 AM–10 PM · Thursday 8 AM–10 PM · Friday 8 AM–11 PM
+                  · Saturday 9 AM–11 PM · Sunday 9 AM–2 PM
+                </>
               )}
             </p>
             <p style={styles.footerCopy}>© 2026 Bean &amp; Olive.</p>
